@@ -69,8 +69,12 @@ feedback | LLM response
 2. .....
 
 
-T2.0.3 Then you should iteratiyely change the prompt until you get a satisfactory results
+T2.0.3 Then you should iteratiyely change the prompt until you get a satisfactory results 
+
 Prepare separate excel files for each prompt with significant changes.
-In excel First sheet should be the feedback | LLM response table
+
+In excel First sheet should be the feedback | LLM response table 
+
 Second sheet should be the prompt used
+
 We will start from this
