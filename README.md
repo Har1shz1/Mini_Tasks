@@ -60,7 +60,11 @@ You are a expert sentiment analysis agent. You need to identify the sentiments o
 Then categorize the sentiment into POSITIVE, NEGATIVE, or NEUTRAL.
 *USE GEMINI API
 
-T2.0.3 Then you should prepare a excel file with columns feedback | LLM response
+T2.0.3 Then you should prepare a excel file with columns
+
+feedback | LLM response
+
+
 1. good service | POSITIVE
 2. .....
 
