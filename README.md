@@ -27,6 +27,7 @@ Ex Output : (Don't need to stick to this)
 
 
 |Model Name| Speed of Generation | Input Tokens | Output Tokens | Accuracy     |
+
 --------------------------------------------------------------------------------
 |Model 1   |                     |              |               |             |
 |Model 2   |                     |              |               |             |
