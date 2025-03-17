@@ -43,3 +43,30 @@ Create a separate folder for each task and add separate README.md files for each
 platform enterprises
 Glossary of LLM Terms
 www.vectara.com
+
+# Task 2
+
+Second task might be challenging;
+Focus on one step at a time. I will further breakdown the tasks
+
+T2.0.1 Find feedback dataset from Kaggle or anywhere in the internet.
+If you couldn't able to find on publicly available sources from ChatGPT Ul generate it.
+Collect at least 100 feedbacks.
+
+T2.0.2 first try to identify 'POSITIVE, NEGATIVE, and NEUTRAL sentiments just by prompt.
+Example Prompt:
+You are a expert sentiment analysis agent. You need to identify the sentiments of the given user feedbacks.
+(feedback}.
+Then categorize the sentiment into POSITIVE, NEGATIVE, or NEUTRAL.
+*USE GEMINI API
+
+T2.0.3 Then you should prepare a excel file with columns feedback | LLM response
+1. good service | POSITIVE
+2. .....
+
+
+T2.0.3 Then you should iteratiyely change the prompt until you get a satisfactory results
+Prepare separate excel files for each prompt with significant changes.
+In excel First sheet should be the feedback | LLM response table
+Second sheet should be the prompt used
+We will start from this
