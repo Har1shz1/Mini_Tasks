@@ -30,6 +30,8 @@ Ex Output : (Don't need to stick to this)
 
 --------------------------------------------------------------------------------
 |Model 1   |                     |              |               |             |
+
+
 |Model 2   |                     |              |               |             |
 
 T1.2.E1: Learn the common vocabulary used with LLMs (Token, embedding, RAG, etc.)
