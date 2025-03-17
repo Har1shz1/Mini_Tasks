@@ -80,3 +80,34 @@ Second sheet should be the prompt used
 We will start from this
 
 # Task 2.1
+
+Task 2 - Create Sentiment Analysis Tool
+You need to identify the POSITIVE, NEGATIVE, and NEUTRAL sentiments from given feedback.
+Feel free to add modifications you think are necessary.
+Here are some suggestions from me:
+
+1. Additional Sentiments:
+- IRRELEVANT: Feedback that doesn't pertain to the topic.
+- HARMFUL: Feedback that contains offensive or harmful content.
+- SUGGESTIVE: Feedback that provides suggestions or improvements.
+
+2. Rating System:
+- Suggest a rating based on the feedback (5 is best; 1 is low).
+
+3. Emotion Detection:
+- Identify specific emotions like happiness, anger, sadness, etc.
+
+4. Presentation:
+- Create a user interface where users can enter feedback and see the output.
+- [Optional] If possible, create a simple GUI using any library you are familiar with.
+- [Optional] Add pie charts and visualizations to the Ul.
+
+[TASKS]
+
+T2.1.1: Study Pydantic to get a structured output from LLM.
+
+T2.1.2: Study Gemini Function calling to get structured output.
+
+T2.1.3: Study LangChain to get structured output.
+
+Use any of these methods to complete the project.
