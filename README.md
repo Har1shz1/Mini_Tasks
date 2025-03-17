@@ -1,6 +1,6 @@
 # Mini_Tasks
 
-# Task1
+# Task 1.0
 1. Obtain the Google Gemini API Key.
 2. Set up the Python environment by installing the required libraries. (gemini, .)
 3. Write simple Python code to call the Gemini API.
@@ -10,7 +10,7 @@
 6. Finally, create a Python script to:
 - Load text files.
 - Summarize the content of the text files from Gemini (use publicly available text files from the internet).
-  # [Modification for the first task]
+  # Task 1.1
 We don't add API keys to the code and we don't push them to GitHub.
 
 T1.2.1: Create a '.env' file and store API keys there. Here it is the GEMINI API KEY.
@@ -44,7 +44,7 @@ platform enterprises
 Glossary of LLM Terms
 www.vectara.com
 
-# Task 2
+# Task 2.0
 
 Second task might be challenging;
 Focus on one step at a time. I will further breakdown the tasks
@@ -78,3 +78,5 @@ In excel First sheet should be the feedback | LLM response table
 Second sheet should be the prompt used
 
 We will start from this
+
+# Task 2.1
