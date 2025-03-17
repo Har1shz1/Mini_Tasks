@@ -12,6 +12,7 @@
 - Summarize the content of the text files from Gemini (use publicly available text files from the internet).
   # [Modification for the first task]
 We don't add API keys to the code and we don't push them to GitHub.
+
 T1.2.1: Create a env file and store API keys there. Here it is the GEMINI API KEY.
 T1.2.2: You have used the "gemini-pro" model. Refer to what LLM models are available with Google.
 T1.2.3: Compare the output of at least two models and prepare a table for comparison (use the same temperature, top-k, and top-p values for each model). Things to consider:
