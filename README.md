@@ -24,6 +24,8 @@ T1.2.3: Compare the output of at least two models and prepare a table for compar
 - Try to identify what are the strong areas and areas lacking on those models.
 
 Ex Output : (Don't need to stick to this)
+
+
 |Model Name| Speed of Generation | Input Tokens | Output Tokens | Accuracy     |
 --------------------------------------------------------------------------------
 |Model 1   |                     |              |               |             |
