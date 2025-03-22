@@ -1,12 +1,14 @@
 worked with Gemini API (gemini-1.5-flash)
 --------------------------------------------------------------------
-Dataset used:
 
+
+Dataset used:
+--------------------
 redmi dataset: https://www.kaggle.com/datasets/parve05/customer-review-dataset?utm_source=chatgpt.com
 amazon dataset: https://www.kaggle.com/datasets/mehmetisik/amazon-review
 
 Prompts used:
-
+-----------------------
 
 1.   "You are an expert sentiment analysis agent. Your task is to classify user feedback into one of three categories:
     - POSITIVE
@@ -24,6 +26,43 @@ Prompts used:
     Please provide the sentiment classification for the following feedback:"
 
 # working
+------------------
+
+Code 1.0: (used amazon.csv)
+
+1. Load API key from .env file
+2. Uploads a CSV file containing feedback.
+3. Processes feedback using Gemini Flash 1.5.
+4. Categorizes each feedback as POSITIVE, NEGATIVE, or NEUTRAL.
+5. Displays sentiment results in the console.
+6. Reduce request rate(RPM) using time.sleep() Pauses 5 seconds between requests to avoid hitting rate limits
+7.  Improved error handling in case of API failures
+8. Saves results to sentiment_result.csv for easy access.
+
+--------------------------------------------
+
+Code 1.1: (used redmi.csv)
+
+1. Load API key from .env file
+2. Uploads a CSV file containing feedback.
+3. Processes feedback using Gemini Flash 1.5.
+4. Categorizes each feedback as POSITIVE, NEGATIVE, or NEUTRAL.
+5. Displays sentiment results in the console.
+6. Reduce request rate(RPM) using time.sleep() Pauses 5 seconds between requests to avoid hitting rate limits
+7.  Improved error handling in case of API failures
+8. Saves results to sentiment_result.csv for easy access.
+
+-------------------------------------------------
+
+Code-2: (Multiple Prompt Variations:
+
+1.The script tries 3 different prompt versions to improve sentiment classification.
+2.Each version’s results are saved in a separate Excel file (sentiment_results_prompt_1.xlsx, sentiment_results_prompt_2.xlsx, etc.).
+3.Excel File Structure:
+First Sheet → "Sentiment Analysis" (Feedback & LLM response)
+Second Sheet → "Prompt Used" (The prompt applied for that round)
+4.After processing each prompt, the corresponding Excel file is automatically downloaded.
+
 
 
 
