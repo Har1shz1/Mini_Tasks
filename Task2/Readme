@@ -54,7 +54,7 @@ Code 1.1: (used redmi.csv)
 
 -------------------------------------------------
 
-Code-2: (Multiple Prompt Variations:
+Code-2: (Multiple Prompt Variations_amazon.csv)
 
 1.The script tries 3 different prompt versions to improve sentiment classification.
 2.Each version’s results are saved in a separate Excel file (sentiment_results_prompt_1.xlsx, sentiment_results_prompt_2.xlsx, etc.).
