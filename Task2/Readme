@@ -7,12 +7,8 @@ amazon dataset: https://www.kaggle.com/datasets/mehmetisik/amazon-review
 
 Prompts used:
 
-1." You are a expert sentiment analysis agent. You need to identify the sentiments of the given user feedbacks".
-(feedback}.
-"Then categorize the sentiment into POSITIVE, NEGATIVE, or NEUTRAL".
 
-
-2.   "You are an expert sentiment analysis agent. Your task is to classify user feedback into one of three categories:
+1.   "You are an expert sentiment analysis agent. Your task is to classify user feedback into one of three categories:
     - POSITIVE
     - NEGATIVE
     - NEUTRAL
@@ -20,12 +16,14 @@ Prompts used:
     Please provide the sentiment classification for the following feedback:"
 
 
-3. "You are an expert sentiment analysis agent. Your task is to classify user feedback into one of three categories:
+2. "You are an expert sentiment analysis agent. Your task is to classify user feedback into one of three categories:
     - POSITIVE
     - NEGATIVE
     - NEUTRAL
 
     Please provide the sentiment classification for the following feedback:"
+
+# working
 
 
 
