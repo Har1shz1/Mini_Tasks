@@ -1,6 +1,9 @@
 worked with Gemini API (gemini-1.5-flash)
 --------------------------------------------------------------------
-dataset: https://www.kaggle.com/datasets/parve05/customer-review-dataset?utm_source=chatgpt.com
+Dataset used:
+
+redmi dataset: https://www.kaggle.com/datasets/parve05/customer-review-dataset?utm_source=chatgpt.com
+amazon dataset: https://www.kaggle.com/datasets/mehmetisik/amazon-review
 
 Prompts used:
 
