@@ -27,6 +27,24 @@ Prompts used:
 
     Please provide the sentiment classification for the following feedback:"
 
+3.   """You are an expert in sentiment analysis. Categorize the following feedback as:
+    - POSITIVE
+    - NEGATIVE
+    - NEUTRAL
+    Feedback: "{feedback}"
+    Only return one of these words.""",
+
+    """Analyze the sentiment of the given user feedback. Reply with:
+    - POSITIVE if the feedback is appreciative.
+    - NEGATIVE if the feedback is critical.
+    - NEUTRAL if the feedback is neither positive nor negative.
+    Feedback: "{feedback}"
+    Respond with only one category: POSITIVE, NEGATIVE, or NEUTRAL.""",
+
+    """Classify the following feedback into one of these categories: POSITIVE, NEGATIVE, NEUTRAL.
+    Feedback: "{feedback}"
+    Provide only the sentiment category without additional explanation."""
+
 # working
 ------------------
 
