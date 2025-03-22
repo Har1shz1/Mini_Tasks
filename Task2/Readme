@@ -59,6 +59,9 @@ Code 1.0: (used amazon.csv)
 7.  Improved error handling in case of API failures
 8. Saves results to sentiment_result.csv for easy access.
 
+Dataset:amazon_feedback_dataset.zip.zip
+Result: Result_1.0_amazondataset.xlsx
+
 --------------------------------------------
 
 Code 1.1: (used redmi.csv)
@@ -72,6 +75,8 @@ Code 1.1: (used redmi.csv)
 7.  Improved error handling in case of API failures
 8. Saves results to sentiment_result.csv for easy access.
 
+Dataset:Data.zip
+Result: Result_1.1_redmidataset.xlsx
 -------------------------------------------------
 
 Code-2: (Multiple Prompt Variations_amazon.csv)
@@ -83,6 +88,11 @@ First Sheet → "Sentiment Analysis" (Feedback & LLM response)
 Second Sheet → "Prompt Used" (The prompt applied for that round)
 4.After processing each prompt, the corresponding Excel file is automatically downloaded.
 
+Dataset:amazon_feedback_dataset.zip.zip
 
+Result:
+sentiment_results_prompt_1.xlsx
+sentiment_results_prompt_2.xlsx
+sentiment_results_prompt_3.xlsx
 
 
