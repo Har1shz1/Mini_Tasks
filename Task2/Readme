@@ -11,7 +11,21 @@ Prompts used:
 (feedback}.
 "Then categorize the sentiment into POSITIVE, NEGATIVE, or NEUTRAL".
 
-2.  "You are an expert sentiment analysis agent. Analyze the sentiment of the following feedback: {feedback}\nClassify it as:\n- POSITIVE\n- NEGATIVE\n- NEUTRAL\nProvide only the classification.",
-    "Analyze the following customer feedback and categorize it into one of the three sentiments: Positive, Negative, or Neutral. Only return the sentiment label. Feedback: {feedback}",
-    "Given the user feedback below, determine whether the sentiment is Positive, Negative, or Neutral. Only output one of these labels. Feedback: {feedback}"
+
+2.   "You are an expert sentiment analysis agent. Your task is to classify user feedback into one of three categories:
+    - POSITIVE
+    - NEGATIVE
+    - NEUTRAL
+
+    Please provide the sentiment classification for the following feedback:"
+
+
+3. "You are an expert sentiment analysis agent. Your task is to classify user feedback into one of three categories:
+    - POSITIVE
+    - NEGATIVE
+    - NEUTRAL
+
+    Please provide the sentiment classification for the following feedback:"
+
+
 
