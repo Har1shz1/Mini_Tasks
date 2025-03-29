@@ -1,5 +1,6 @@
 # Mini_Tasks
 
+
 # Task 1.0
 1. Obtain the Google Gemini API Key.
 2. Set up the Python environment by installing the required libraries. (gemini, .)
